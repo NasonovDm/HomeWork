@@ -35,6 +35,7 @@ public class Main {
 
 
 
+
                 public static void year ( int year){
                     if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
                         System.out.println("Год" + year + " високосный");
