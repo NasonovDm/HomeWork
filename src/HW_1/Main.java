@@ -8,6 +8,8 @@ public class Main {
             return result;
         }
 
+
+
         int number ( int a, int b){
             int sum = a + b;
             if (sum >= 10 && sum <= 20) {
@@ -16,6 +18,8 @@ public class Main {
                 return false;
             }
 
+
+
             int number ( int a){
                 if (a >= 0) {
                     System.out.println(a + " Число положительное");
@@ -23,9 +27,13 @@ public class Main {
                     System.out.println(a + " Число отрицательное");
                 }
 
+
+
                 String hello (String name){
                     System.out.println("Привет," + name + "!");
                 }
+
+
 
                 public static void year ( int year){
                     if ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
